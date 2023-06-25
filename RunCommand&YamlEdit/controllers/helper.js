@@ -21,7 +21,6 @@ function editYAMLVariable(key, value) {
   }
 }
 
-// Function to run an OS command
 function runCommand(command) {
   exec(command, (error, stdout, stderr) => {
     if (error) {
